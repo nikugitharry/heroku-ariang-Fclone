@@ -31,10 +31,10 @@
 			"required": false,
 			"value": ""
 		},
-		"UNPACK_PASSWORDS2": {
-			"description": "unpack passwords in one line, replace line breaks with \"\\n\"",
+		"SA_ZIP_LINK": {
+			"description": "Service Accounts compressed package direct linkn\"",
 			"required": false,
-			"value": ""
+			"value": "https://"
 		}
 	},
 	"buildpacks": [
