@@ -4,7 +4,7 @@
 	"repository": "https://github.com/xinxin8816/heroku-ariang-21vianet",
 	"keywords": ["AriaNG"],
 	"env": {
-		"HEROKU_APP_NAME00": {
+		"HEROKU_APP_NAME": {
 			"description": "This should be the same as \"App name\" above.",
 			"value": ""
 		},
@@ -27,6 +27,11 @@
 			"value": "OneDrive:tmp"
 		},
 		"UNPACK_PASSWORDS": {
+			"description": "unpack passwords in one line, replace line breaks with \"\\n\"",
+			"required": false,
+			"value": ""
+		},
+		"UNPACK_PASSWORDS2": {
 			"description": "unpack passwords in one line, replace line breaks with \"\\n\"",
 			"required": false,
 			"value": ""
