@@ -16,10 +16,6 @@
 			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
 			"required": false
 		},
-		"SA_ZIP_LINK": {
-			"description": "Service Accounts compressed package direct link"",
-			"required": false
-		},
 		"RCLONE_DESTINATION": {
 			"description": "Rclone destination path, format \"[drivename A]:[remove path A]\"",
 			"required": false,
