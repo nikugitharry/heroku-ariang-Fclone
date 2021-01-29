@@ -1,7 +1,7 @@
 {
-	"name": "Heroku AriaNG 21vianet. Heroku AriaNG 世纪互联版",
+	"name": "Heroku AriaNG 21vianet. Heroku AriaNG Fclone版",
 	"description": "Run ariaNG on heroku",
-	"repository": "https://github.com/xinxin8816/heroku-ariang-21vianet",
+	"repository": "https://github.com/DeityJoe/heroku-ariang-21vianet",
 	"keywords": ["AriaNG"],
 	"env": {
 		"HEROKU_APP_NAME": {
@@ -14,6 +14,10 @@
 		},
 		"RCLONE_CONFIG": {
 			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
+			"required": false
+		},
+		"SA_ZIP_LINK": {
+			"description": "Service Accounts compressed package direct link"",
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
