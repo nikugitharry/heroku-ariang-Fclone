@@ -4,7 +4,7 @@
 	"repository": "https://github.com/xinxin8816/heroku-ariang-21vianet",
 	"keywords": ["AriaNG"],
 	"env": {
-		"HEROKU_APP_NAME": {
+		"HEROKU_APP_NAME00": {
 			"description": "This should be the same as \"App name\" above.",
 			"value": ""
 		},
