@@ -1,4 +1,4 @@
-# Heroku-AriaNG-21vianet. Heroku-AriaNG 世纪互联版
+# Heroku-AriaNG-Fclone. Heroku-AriaNG-Fclone版
 Build AriaNG on Heroku, and upload to cloud drive when the file download completed.<br>
 在 Heroku 上搭建 AriaNG ，并在文件下载完成后上传至网盘。
 
@@ -15,6 +15,16 @@ Using Rclone with 21vianet mod and Aria2, even UNRAR online flexibly? Try this [
 
 **This APP is no longer updated.**<br>
 **本应用今后将不再更新。**
+
+## 修改
+
+与[世纪互联版](https://github.com/xinxin8816/heroku-ariang-21vianet)相比，修改如下：
+
+1. 替换rclone为fclone，使用命令仍为rclone copy。
+
+2. 支持使用SA，在"SA_INIT_FILE"内填入单个SA名称，在"SA_ZIP_URL"内填入SA的压缩包直链。默认名称使用“Google”（rclone copy Google:{} Google:{})
+3. 添加完成任务后执行的脚本。
+4. 修改下载线程数为128
 
 ## Catalog 目录
 * [Abuse Warning 滥用警告](#abuse-warning-滥用警告)

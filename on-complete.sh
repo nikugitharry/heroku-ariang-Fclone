@@ -150,6 +150,8 @@ elif [ "${TOP_PATH}" != "${FILE_PATH}" ] && [ $2 -eq 1 ]; then # 第三方度盘
     exit 0
 fi
 
+./complete.sh
+
 echo -e "${ERROR} Unknown error."
 TASK_INFO
 exit 1
