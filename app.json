@@ -30,11 +30,6 @@
 			"description": "unpack passwords in one line, replace line breaks with \"\\n\"",
 			"required": false,
 			"value": ""
-		},
-		"SA_ZIP_LINK": {
-			"description": "Service Accounts compressed package direct link",
-			"required": false,
-			"value": "https://"
 		}
 	},
 	"buildpacks": [
