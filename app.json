@@ -35,7 +35,7 @@
 			"value": "OneDrive:tmp"
 		},
 		"SHELL_ON_COMPLETE": {
-			"description": "Script to be executed after the task is completed. ex \"rclone copy Google:{TD1} Google:{TD2}\" ",
+			"description": "Script to be executed after the task is completed. ex \"rclone copy Google:{TD1} Google:{TD2}\"",
 			"required": false
 		},
 		"UNPACK_PASSWORDS": {
