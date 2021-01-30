@@ -16,6 +16,14 @@
 			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
 			"required": false
 		},
+		"SA_ZIP_URL": {
+			"description": "Service Accounts ZIP URL.It Should be Zipped Such that it should have a folder named accounts with SA in it ",
+			"required": false
+		},
+		"SA_INIT_FILE": {
+			"description": "Give a service account File Name. ex 1.json ",
+			"required": false
+		},
 		"RCLONE_DESTINATION": {
 			"description": "Rclone destination path, format \"[drivename A]:[remove path A]\"",
 			"required": false,
