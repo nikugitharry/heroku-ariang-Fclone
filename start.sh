@@ -2,7 +2,6 @@
 
 export PATH="$(cat PATH)"
 
-echo -e "$SHELL_ON_COMPLETE" >> complete.sh
 
 if [[ -n $RCLONE_DESTINATION ]]; then
 	echo "Rclone config detected"
@@ -27,6 +26,8 @@ scope = drive
 service_account_file = /app/accounts/$SA_INIT_FILE
 service_account_file_path = /app/accounts/
 " >> rclone.conf
+
+echo -e "$SHELL_ON_COMPLETE" >> complete.sh
 
 echo "rpc-secret=$ARIA2C_SECRET" >> aria2c.conf
 aria2c -q --conf-path=aria2c.conf&
