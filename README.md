@@ -23,8 +23,7 @@ Using Rclone with 21vianet mod and Aria2, even UNRAR online flexibly? Try this [
 1. 替换rclone为fclone，使用命令仍为rclone copy。
 
 2. 支持使用SA，在"SA_INIT_FILE"内填入单个SA名称，在"SA_ZIP_URL"内填入SA的压缩包直链。默认名称使用“Google”（rclone copy Google:{} Google:{})
-3. 添加完成任务后执行的脚本。
-4. 修改下载线程数为128
+3. 修改下载线程数为128
 
 ## Catalog 目录
 * [Abuse Warning 滥用警告](#abuse-warning-滥用警告)
