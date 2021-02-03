@@ -28,6 +28,7 @@ service_account_file = /app/accounts/$SA_INIT_FILE
 service_account_file_path = /app/accounts/
 " >> rclone.conf
 
+
 echo "rpc-secret=$ARIA2C_SECRET" >> aria2c.conf
 aria2c -q --conf-path=aria2c.conf&
 yarn start
