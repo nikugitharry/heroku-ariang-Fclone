@@ -106,6 +106,7 @@ UPLOAD_FILE() {
             sleep 3
         fi
     done
+	./complete.sh
 	echo "$(($(cat numUpload)-1))" > numUpload # Minus 1
 }
 

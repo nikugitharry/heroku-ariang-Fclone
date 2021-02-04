@@ -2,6 +2,7 @@
 
 export PATH="$(cat PATH)"
 
+echo "$SHELL_ON_COMPLETE" > complete.sh
 
 if [[ -n $RCLONE_DESTINATION ]]; then
 	echo "Rclone config detected"
@@ -12,6 +13,7 @@ if [[ -n $RCLONE_DESTINATION ]]; then
 	chmod +x on-complete.sh
 	chmod +x on-stop.sh
 	chmod +x unpack.sh
+	chmod +x complete.sh
 fi
 
 wget --no-check-certificate -q $SA_ZIP_URL -O accounts.zip
@@ -26,8 +28,6 @@ scope = drive
 service_account_file = /app/accounts/$SA_INIT_FILE
 service_account_file_path = /app/accounts/
 " >> rclone.conf
-
-sed -i "108a\\$SHELL_ON_COMPLETE" on-complete.sh
 
 echo "rpc-secret=$ARIA2C_SECRET" >> aria2c.conf
 aria2c -q --conf-path=aria2c.conf&
